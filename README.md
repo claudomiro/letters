@@ -2,8 +2,12 @@
 Projeto prático para IBM
 
 Para rodar o projeto (usando o bash):
+(Seguindo a covenção do HackerRank a entrada está no StdIn )
+<pre>
 mvn install
-cat test.txt | mvn -q exec:java -Dexec.mainClass="org.claudomiro.interview.ibm.letters.Main"
+cat test.txt | mvn exec:java -q -Dexec.mainClass="org.claudomiro.interview.ibm.letters.Main"  > result.txt
+cat result.txt
+</pre>
 
 
 Pergunta: **Porque o fonte está em inglês**?
