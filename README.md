@@ -1,5 +1,4 @@
-# letters
-Projeto prático para IBM
+
 
 Para rodar o projeto (usando o bash):
 (Seguindo a covenção do HackerRank a entrada está no StdIn )
